@@ -11,4 +11,6 @@ The original picture was 950 x 950 pixels, which translated to 656kb. Sproutsoci
 (https://sproutsocial.com/insights/social-media-image-sizes-guide/#twitter)
 
 So, Either way, the bot should be able to run for a VERY long time before we reach the maximum file size, but as I accumulate more data about how the images grow on each iteration,
-I should be able to come up with a rough estimate for when we will hit the max file size.
+I should be able to come up with a rough estimate for when we will hit the max file size. I've only generated 3 iterations so far, and it appears as if the image grows about 1kb / iteration. So, if that pattern happens to persist, and the bot continually posts at a rate of 1 post / 3 hours,
+Then a true 5MB limit should have the bot running for 543 days (or, 1.48 years!),
+or 1793 days (4.91 years!) if the true limit is 15mb.
