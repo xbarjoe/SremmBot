@@ -1,7 +1,7 @@
 # SremmBot
 A twitter bot that occasionally posts the Sremmlife 1 with increasing space between the two faces.
 
-Included is a Python script designed to run the bot through the command line, which I'm still working to clean up and get fully function, along with a python notebook,
+Included is a Python script designed to run the bot through the command line, which I'm still working to clean up and get fully functional, along with a python notebook,
 which works out of the box. This will only work if you have your own Twitter developer accound with authentication keys / access to the API
 (I used tweepy, which made it super easy). For obvious security reasons my dev keys are not included in the repository
 To get it working yourself, you need a file titled "auth_keys.py" which contains 4 string declarations for your developer API keys and the keys for your individual app.
